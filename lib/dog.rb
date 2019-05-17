@@ -13,4 +13,8 @@ class Dog
   def self.clear_all
     @@all.clear
   end
+  
+  def self.all do each |Dog|
+    puts Dog name
+  end
 end
